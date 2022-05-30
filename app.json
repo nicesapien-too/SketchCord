@@ -1,0 +1,7 @@
+{
+  "name": "SketchCord",
+  "description": "A barebones Node.js app using Express",
+  "repository": "https://github.com/nicesapien-too/sketchcord",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "discord", "api"]
+}
