@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
-const port = 3311
+const PORT = 3311
 const axios = require('axios');
+app.use(express.static('public'));
 app.use(express.json())
 // Function for converting hex color code to decimal.
 function hexToDecimal(hex) {
@@ -98,9 +99,4 @@ app.post('/api/send', function(req, res, next) {
 	  res.status(404).send("Please provide a webhook URL.");
 	}
 });
-
-if (!module.parent) {
-	app.listen(process.env.PORT || port);
-	console.log('Sketchcord started on port ' + port);
-	console.log('API available at localhost:'+port);
-}
+app.listen(process.env.PORT || PORT, () => console.log(`Server listening on port: ${PORT}`));
