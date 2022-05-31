@@ -102,4 +102,5 @@ app.post('/api/send', function(req, res, next) {
 if (!module.parent) {
 	app.listen(process.env.PORT || port);
 	console.log('Sketchcord started on port ' + port);
+	console.log('API available at localhost:'+port);
 }
