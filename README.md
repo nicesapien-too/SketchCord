@@ -4,8 +4,12 @@
 To use it, you can use the default API, **https://sketchcord.heroku.app/api/send**. But If your app is too popular, you can deploy the API yourself. Just click the below button to deploy on Heroku.
 
 [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nicesapien-too/sketchcord/tree/main)
+
 and below to deploy on Railway
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Cv0lHp?referralCode=S2-ghV)
+
+To deploy locally, see [Contributing guide](https://github.com/nicesapien-too/SketchCord#contributing)
 ## Using
 First, before we get started, Let me tell you the basic setup.
 First you will need to add a `content-type` header with `application/json` value.
