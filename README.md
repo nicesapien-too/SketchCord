@@ -2,6 +2,7 @@
 **Sketchcord** is used to send messages to **Discord** using Discord **Webhooks** by sending **http requests**. It is an unofficial (REST)API. Works great with **Sketchware**/Sketchware Pro/ Sketchware Revolution or Sketchware Gold.
 ## Hosting
 To use it, you can use the default API, **https://sketchcord.heroku.app/api/send**. But If your app is too popular, you can host the API yourself. Just click the below button.
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nicesapien-too/sketchcord/tree/main)
 ## Using
 First, before we get started, Let me tell you the basic setup.
@@ -31,14 +32,14 @@ And that's how it works. Currently, you can only add one embed per message and z
 First clone the repository locally, make sure NodeJS is installed on your machine.
 Then run:
 ```cmd
-npm install
+$ npm install
 ```
 To build website, run:
 ```cmd
-npm start
+$ npm start
 ```
 or
 ```cmd
-node .
+$ node .
 ```
 Then test it by sending a request to http://localhost:3311/api/send
