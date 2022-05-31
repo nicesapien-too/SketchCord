@@ -1,9 +1,11 @@
 # SketchCord
 **Sketchcord** is used to send messages to **Discord** using Discord **Webhooks** by sending **http requests**. It is an unofficial (REST)API. Works great with **Sketchware**/Sketchware Pro/ Sketchware Revolution or Sketchware Gold.
 ## Hosting
-To use it, you can use the default API, **https://sketchcord.heroku.app/api/send**. But If your app is too popular, you can host the API yourself. Just click the below button.
+To use it, you can use the default API, **https://sketchcord.heroku.app/api/send**. But If your app is too popular, you can deploy the API yourself. Just click the below button to deploy on Heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nicesapien-too/sketchcord/tree/main)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nicesapien-too/sketchcord/tree/main)
+and below to deploy on Railway
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Cv0lHp?referralCode=S2-ghV)
 ## Using
 First, before we get started, Let me tell you the basic setup.
 First you will need to add a `content-type` header with `application/json` value.
