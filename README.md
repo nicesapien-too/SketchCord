@@ -7,6 +7,7 @@ To use it, you can use the default API, **https://sketchcord.heroku.app/api/send
 First, before we get started, Let me tell you the basic setup.
 First you will need to add a `content-type` header with `application/json` value.
 Then you will have to write json in Request body to specify your message.
+Make sure to send a POST request only.
 Here are the available body params(all should be declared as strings in json):
 
 | Name        | Value       | Required    |
@@ -26,3 +27,18 @@ Here are the available body params(all should be declared as strings in json):
 
 And that's how it works. Currently, you can only add one embed per message and zero fields per embed.
 
+## Contributing
+First clone the repository locally, make sure NodeJS is installed on your machine.
+Then run:
+```cmd
+npm install
+```
+To build website, run:
+```cmd
+npm start
+```
+or
+```cmd
+node .
+```
+Then test it by sending a request to http://localhost:3311/api/send
