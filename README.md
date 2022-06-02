@@ -19,6 +19,7 @@ To deploy locally, see [Contributing guide](https://github.com/nicesapien-too/Sk
 ```bash
 curl -X POST https://sketchcord.herokuapp.com/api/send -H "Content-Type: application/json" -d "{\"url\":\"https://discord.com/api/webhooks/980005854130630726/ZCRSROTTWRBF1UfLpbpljXsWudc8AUbBNVK0UMAQNnoLgu9IW-a0Ux0hahpyL7ynkCmi\",\"content\":\"Woof-woof\",\"avatar_url\":\"https://i.imgur.com/oBPXx0D.png\",\"username\":\"Wolf\",\"embed_color\":\"#FFFFFF\",\"embed_description\":\"Hey @everyone. Look its working\",\"embed_footer\":\"Powered by SketchCord\",\"embed_img_url\":\"https://i.imgur.com/ZGPxFN2.jpg\",\"embed_title\":\"Look, its working\",\"embed_timestamp\":\"2022-05-30T05:00:00.000Z\",\"tts\":\"false\"}"
 ```
+Don't forget to replace `url` with your webhook URL!
 ## Using
 First, before we get started, Let me tell you the basic setup.
 First you will need to add a `content-type` header with `application/json` value.
@@ -44,15 +45,6 @@ Here are the available body params(all should be declared as strings in json):
 
 
 And that's how it works. Currently, you can only add one embed per message and zero fields per embed.
-<<<<<<< HEAD
-
-
-=======
-### Example
-```bash
-curl -X POST https://sketchcord.herokuapp.com/api/send -H "Content-Type: application/json" -d "{\"url\":\"https://discord.com/api/webhooks/980005854130630726/ZCRSROTTWRBF1UfLpbpljXsWudc8AUbBNVK0UMAQNnoLgu9IW-a0Ux0hahpyL7ynkCmi\",\"content\":\"Woof-woof\",\"avatar_url\":\"https://i.imgur.com/oBPXx0D.png\",\"username\":\"Wolf\",\"embed_color\":\"#FFFFFF\",\"embed_description\":\"Hey @everyone. Look its working\",\"embed_footer\":\"Powered by SketchCord\",\"embed_img_url\":\"https://i.imgur.com/ZGPxFN2.jpg\",\"embed_title\":\"Look, its working\",\"embed_timestamp\":\"2022-05-30T05:00:00.000Z\",\"tts\":\"false\"}"
-```
->>>>>>> 76de9da (Railway is also theregit add README.md)
 ## Contributing
 First clone the repository locally, make sure NodeJS is installed on your machine.
 Then run:
